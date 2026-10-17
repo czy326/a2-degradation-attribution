@@ -1,0 +1,112 @@
+{
+ "prereg": "DIOR_L1_PREREG.md",
+ "n_scan_img": 500,
+ "n_gt_obj": 2533,
+ "subset": {
+  "pool": {
+   "n_img": 2000,
+   "n_obj": 10519,
+   "per_img": 5.2595,
+   "median": 30.0,
+   "bins": [
+    0,
+    4,
+    70,
+    257,
+    906,
+    1220,
+    1902,
+    1083,
+    1629,
+    3448
+   ],
+   "n_usable_bins": 7
+  },
+  "train": {
+   "n_img": 1500,
+   "n_obj": 7986,
+   "per_img": 5.324,
+   "median": 30.0,
+   "bins": [
+    0,
+    4,
+    50,
+    185,
+    678,
+    925,
+    1463,
+    841,
+    1251,
+    2589
+   ],
+   "n_usable_bins": 7
+  },
+  "scan": {
+   "n_img": 500,
+   "n_obj": 2533,
+   "per_img": 5.066,
+   "median": 31.0,
+   "bins": [
+    0,
+    0,
+    20,
+    72,
+    228,
+    295,
+    439,
+    242,
+    378,
+    859
+   ],
+   "n_usable_bins": 6
+  }
+ },
+ "thresholds": {
+  "R_min": 0.01,
+  "heavy_floor": 0.01,
+  "R_over_floor": 5.0,
+  "delta_min": 0.005,
+  "snr_pass": 2.0,
+  "snr_retry": 1.0,
+  "floor_frac": 0.2,
+  "sd_imported": 0.00141,
+  "tcrit_df5": 2.571,
+  "n_seeds_ref": 6
+ },
+ "MDE_imported": 0.0014799449602434548,
+ "delta_ref": 0.015710236933271726,
+ "snr_imported": 10.615419732019866,
+ "criteria": {
+  "dynamic_range": true,
+  "realization_floor": true,
+  "effect_size": true,
+  "floor_stable": true
+ },
+ "verdict": "★ 放行 L2（协议可移植 + 效应可测）",
+ "arms": {
+  "dior_l1_A": {
+   "mAP_ref": 0.2729840627523347,
+   "mAP_heavy": 0.14844297555124503,
+   "R": 0.1245410872010897,
+   "sd_real": 0.0010002948681968567,
+   "reps": [
+    0.2729840627523347,
+    0.27112783330983525,
+    0.2714097447638219
+   ],
+   "R_over_floor": 124.50437482058557
+  },
+  "dior_l1_B0": {
+   "mAP_ref": 0.257273825819063,
+   "mAP_heavy": 0.159687633098781,
+   "R": 0.09758619272028199,
+   "sd_real": 0.000767922653121041,
+   "reps": [
+    0.257273825819063,
+    0.2573792222479512,
+    0.2586534695101988
+   ],
+   "R_over_floor": 127.07815340993767
+  }
+ }
+}

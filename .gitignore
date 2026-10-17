@@ -1,0 +1,18 @@
+# scratch / local artefacts, never published
+*.pyc
+__pycache__/
+*.log
+*.bak-*
+**/_cache/
+**/fig*.log
+.DS_Store
+
+# weights and datasets are not redistributed
+*.pt
+*.pth
+_weights/
+_data/
+
+# local run directories
+**/runs/
+**/tv_views/
